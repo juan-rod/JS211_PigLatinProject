@@ -12,6 +12,16 @@ const rl = readline.createInterface({
 
 
 const pigLatin = (word) => {
+  // The basic idea of Pig Latin is to take the first letters of a word up to the first vowel,
+  // move them to the end of the word,
+  // and add 'ay' to the end of it.
+
+  // get word = car
+  let word = "car";
+  let word = ['c', 'a', 'r'];
+
+  // move first letters (up to the first vowel ) to the back of the word
+  // then add 'ay' to the end of that word
 
   // Your code here
 
